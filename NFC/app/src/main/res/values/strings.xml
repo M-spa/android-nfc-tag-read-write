@@ -1,11 +1,13 @@
 <resources>
-    <string name="app_name">NFC</string>
-    <string name="message_write_error">Error Writing Message !</string>
-    <string name="message_write_success">Successfully written to Tag !</string>
-    <string name="message_write_progress">Writing to Tag..</string>
-    <string name="message_tag_detected">NFC Tag Detected !</string>
-    <string name="message_read_tag">Read from NFC Tag</string>
-    <string name="message_write_tag">Write to NFC Tag</string>
-    <string name="message_tap_tag">Tap the NFC Tag to your device !</string>
-    <string name="hint_message">Message</string>
+    <string name="app_name">Healthy Handshake</string>
+    <string name="message_write_error">Error Writing Message!</string>
+    <string name="message_write_success">Successfully written to Device!</string>
+    <string name="message_write_progress">Writing to Device..</string>
+    <string name="message_tag_detected">NFC Device Detected!</string>
+    <string name="message_read_tag">Retrieve Customer Data</string>
+    <string name="message_write_tag">Set As Tag Data</string>
+    <string name="message_tap_tag">Tap the NFC Device to your device!</string>
+    <string name="BN_hint">Business Name</string>
+    <string name="BL_hint">Location in Business</string>
+    <string name="BID_hint">Business ID</string>
 </resources>
