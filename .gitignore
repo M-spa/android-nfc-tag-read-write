@@ -35,8 +35,7 @@ captures/
 # Intellij
 *.iml
 .idea
+/NFC/.idea
 
 # Keystore files
 *.jks
-.idea
-/NFC/.idea
