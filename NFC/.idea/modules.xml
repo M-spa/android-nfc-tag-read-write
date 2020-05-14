@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NFC.iml" filepath="$PROJECT_DIR$/NFC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/NFC-app.iml" filepath="$PROJECT_DIR$/app/NFC-app.iml" group="NFC/app" />
+      <module fileurl="file://$PROJECT_DIR$/NFCReadWrite-NFC.iml" filepath="$PROJECT_DIR$/NFCReadWrite-NFC.iml" group="NFC" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

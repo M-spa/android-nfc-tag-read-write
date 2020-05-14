@@ -12,16 +12,30 @@
     tools:context="com.learn2crack.nfc.MainActivity">
 
     <EditText
-        android:id="@+id/et_message"
+        android:id="@+id/BN_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/hint_message"/>
+        android:hint="@string/BN_hint"/>
+
+    <EditText
+        android:id="@+id/BL_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BN_message"
+        android:hint="@string/BL_hint"/>
+
+    <EditText
+        android:id="@+id/BID_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BL_message"
+        android:hint="@string/BID_hint"/>
 
     <Button
         android:id="@+id/btn_write"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/et_message"
+        android:layout_below="@+id/BID_message"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:text="@string/message_write_tag"
         style="@style/Widget.AppCompat.Button.Colored"/>
